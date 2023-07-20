@@ -7,7 +7,7 @@ for color in colors:
 
 flag = False
 
-random_item = random.randint(0,4)
+random_item = random.randint(0, 4)
 random_color = colors[random_item]
 
 while flag == False:
