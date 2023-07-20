@@ -2,7 +2,7 @@ win = 3
 lose = 0
 tied = 1
 flag = False
-while flag == False:
+while not flag:
     score = int(input("Введите кол - во очков команды за игру(0,1,3)"))
     if score == win or score == lose or score == tied:
         if score == win:
@@ -16,5 +16,3 @@ while flag == False:
             break
         else:
             print("Некорректное число очков")
-
-
