@@ -1,4 +1,3 @@
-import collections
 number = int(input("Введите число"))
 const_number = number
 nums_reverse = []
