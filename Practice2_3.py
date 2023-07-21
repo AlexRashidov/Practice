@@ -16,4 +16,5 @@ for number in nums:
 
 if f_num == check_user_num:
     print("Ваше число является числом Армстронга")
-else: print("Не является")
+else:
+    print("Не является")
