@@ -1,9 +1,9 @@
-sum = 0
+sm = 0
 flag = False
-while flag == False:
+while not flag:
     user_num = int(input("Введите отрицательное число"))
     if user_num < 0:
-        sum += user_num
+        sm += user_num
     else:
         flag = True
-print(sum)
+print(sm)
