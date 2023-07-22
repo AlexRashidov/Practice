@@ -1,6 +1,6 @@
 num = int(input("Введите число от 10 до 20\n"))
 flag = False
-while flag == False:
+while not flag:
     if num < 10:
         print("Введенное числов меньше 10")
         num = int(input("Введите число от 10 до 20\n"))
