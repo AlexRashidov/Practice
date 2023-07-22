@@ -12,8 +12,8 @@ if a > 0:
         x1 = (-1 * b + discriminant ** 0.5) / (2 * a)
         print(f'Существует только одно решение, где х = {x1}')
     else:
-        x1 = (-1 * b + discriminant ** 0.5)/(2 * a)
-        x2 = (-1 * b - discriminant ** 0.5)/(2 * a)
+        x1 = (-1 * b + discriminant ** 0.5) / (2 * a)
+        x2 = (-1 * b - discriminant ** 0.5) / (2 * a)
         print(f'Существует два решения, где х1 = {x1} , а х2 = {x2}')
 else:
     print("Вы ввели а < 0")
